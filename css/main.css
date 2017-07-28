@@ -1,0 +1,84 @@
+
+#games{
+    margin-top: 20px;
+}
+
+.items{
+    display: inline-block;
+
+    margin: auto;
+
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    border-color: aliceblue;
+    /*border: solid 1px;*/
+    border-top: solid 1px   ;
+    border-left: solid 1px;
+    display: inline-block;
+}
+
+.row{
+    height: 82px;
+    text-align: center;
+}
+
+.item-left-divide{
+    border-left: solid 2px blue;
+}
+
+.item-top-divide{
+    border-top: solid 2px blue;
+}
+
+.right-border{
+    border-right: solid 1px;
+}
+.bottom-border{
+    border-bottom: solid 1px;
+}
+
+body{
+    text-align:center;
+    -moz-user-select:none;/*»ðºü*/
+
+    -webkit-user-select:none;/*webkitä¯ÀÀÆ÷*/
+
+    -ms-user-select:none;/*IE10*/
+
+    -khtml-user-select:none;/*ÔçÆÚä¯ÀÀÆ÷*/
+
+    user-select:none;
+}
+
+#number{
+    float: left;
+    width: 100%;
+    text-align:center;
+    margin-top: 20px;
+}
+
+#number .center{
+    margin: 0 auto;
+}
+
+#number .center .numberItem{
+    width: 80px;
+    height: 80px;
+    border: solid 1px;
+    /*border-top: solid 1px   ;*/
+    /*border-left: solid 1px;*/
+    display: inline-block;
+}
+
+.text_number{
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+}
+
+.initNumber{
+    background-color: #dfdfdf;
+}
