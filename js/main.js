@@ -154,7 +154,7 @@ var calculateNumbers = function (s) {
     }
     randomSwitch();
 
-    makePrompt(40);
+    makePrompt(25);
 
 };
 
